@@ -1,0 +1,73 @@
+.work__hello {
+    display: flex;
+    max-height: 284px;
+    margin-bottom: 113px;
+    justify-content: space-between;
+}
+
+.H {
+    font-size: 60px;
+    font-weight: 500
+}
+
+.arrow {
+    padding-top: 116px;
+}
+.work__p {
+    margin-left: 116px;
+    color: var(--gray);
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+.list {
+    gap: 114;
+}
+
+.card {
+    display: flex;
+    border-bottom: 2px solid;
+    justify-content: space-between;
+    padding-bottom: 106px;
+    margin-bottom: 114px;
+}
+
+.hc {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pu {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.pd {
+    padding-top: 33px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pl {
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 356px;
+}
+
+.last {
+    display: flex;
+    border-bottom: 2px solid;
+    justify-content: space-between;
+    padding-bottom: 106px;
+}

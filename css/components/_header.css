@@ -1,0 +1,27 @@
+.header {
+    padding: 5px 0;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.header__link {
+    font-weight: 500;
+    font-size: 21px;
+    font-size: medium;
+}
+
+.footer {
+    padding-top: 130px;
+    padding-bottom: 38px;
+}

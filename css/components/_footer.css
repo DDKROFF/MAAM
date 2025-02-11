@@ -1,0 +1,15 @@
+.footer__akif {
+    color: var(--blue);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+}
