@@ -1,5 +1,6 @@
 .home__content {
     display: flex;
+    gap: 40px;
     justify-content: space-between;
 }
 
@@ -8,6 +9,7 @@
     font-size: 60px;
     max-width: 480px;
     margin-bottom: 30px;
+    line-height: 0.97;
 }
 
 .home__subtext {
@@ -15,6 +17,54 @@
     font-size: 32px;
     font-weight: 400;
     max-width: 575px;
+}
+
+.home__subtext2 {
+    color: var(--gray);
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 575px;
+}
+
+.home__img {
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    .home__title {
+        font-size: 56px;
+    }
+
+    .home__subtext {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home__title {
+        font-size: 52px;
+    }
+
+    .home__subtext {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 920px) {
+    .home__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home__title {
+        margin: 0 auto 30px;
+        font-size: 48px;
+    }
+
+    .home__img {
+        height: 540px;
+    }
 }
 
 .skills {

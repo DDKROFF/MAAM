@@ -5,6 +5,7 @@
 
 @import 'components/_header.css';
 @import 'components/_footer.css';
+@import '/css/components/_adaptive.css';
 
 @import '/css/home/_home.css';
 @import '/css/home/_work.css';
