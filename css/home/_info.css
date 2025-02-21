@@ -1,0 +1,27 @@
+.info {
+    border-top: 2px solid;
+}
+
+.info__content {
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 500;
+    max-width: 1041px;
+}
+
+.info__desc {
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.view {
+    padding-top: 27px;
+    font-size: 18px;
+    font-weight: 400;
+}
