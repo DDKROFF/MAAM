@@ -4,6 +4,13 @@
     font-size: 18px;
 }
 
+@media (max-width: 920px) {
+    .skills {
+        font-size: 14px;
+        margin: 100px auto;
+    }
+}
+
 .main__soft {
     gap: 63px;
     display: flex;

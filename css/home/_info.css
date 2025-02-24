@@ -9,6 +9,7 @@
     font-size: 32px;
     font-weight: 500;
     max-width: 1041px;
+    gap: 40px;
 }
 
 .info__desc {

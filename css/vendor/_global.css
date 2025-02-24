@@ -2,6 +2,7 @@ body {
     background-color: var(--white);
     align-items: center;
     font-family: var(--dmsans);
+    overflow-x: hidden;
 }
 
 .header {
@@ -9,12 +10,14 @@ body {
 }
 
 .indent {
+    max-width: 1150px;
+    margin: 0 auto;
     margin-top: 120px;
 }
 
 .container {
-    max-width: 1150px;
     margin: 0 auto;
+    max-width: 1150px;
     padding: 0 15px;
 }
 
