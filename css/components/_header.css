@@ -21,7 +21,14 @@
     font-size: medium;
 }
 
-.footer {
-    padding-top: 130px;
-    padding-bottom: 38px;
+@media (max-width: 480px) {
+    .header__link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 424px) {
+    .header__link {
+        font-size: 14px;
+    }
 }
