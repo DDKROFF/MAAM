@@ -27,3 +27,21 @@
         font-size: 19px;
     }
 }
+
+@media (max-width: 622px) {
+    .footer {
+        padding-top: 80px;
+    }
+    .footer__inner {
+        font-size: 17px;
+    }
+    .footer__inner {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 622px) {
+    .footer__list {
+        gap: 20px;
+    }
+}

@@ -115,7 +115,9 @@
 
 @media (max-width: 522px) {
     .info__content {
-       gap: 30px; 
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
     }
     .info__desc {
         font-size: 17px;
