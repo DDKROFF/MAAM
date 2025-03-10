@@ -1,6 +1,7 @@
 .work__content {
-    margin-top: 113px;
     display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
 }
 
 .work__description {
@@ -9,7 +10,6 @@
     font-size: 32px;
     font-weight: 400;
     color: var(--gray);
-    margin-left: auto;
 }
 
 .work__title {
@@ -17,15 +17,17 @@
     max-height: 129px;
     font-weight: 500;
     font-size: 60px;
+    line-height: 58.32px;
     margin-bottom: 116px;
+    letter-spacing: -1.8px;
 }
 
+
 .cases__card {
+    margin-top: 113px;
     display: flex;
     padding-bottom: 108px;
     border-bottom: 2px solid #000;
-    justify-content: space-between;
-    gap: 40px;
 }
 
 .cases__number {
@@ -46,7 +48,6 @@
     font-size: 18px;
     margin-bottom: 25px;
     margin-top: 25px;
-    letter-spacing: 0.54px;
 }
 
 .cases__subtext {
@@ -57,10 +58,13 @@
 
 .cases__link {
     font-size: 20px;
+    text-decoration: underline;
+
 }
 
 .photo__work__card {
     object-fit: cover;
+    margin-left: auto;
 }
 
 .cases__link__typography {
@@ -81,6 +85,10 @@
         gap: 100px;
     }
 
+    .photo__work__card {
+        max-width: 600px;
+    }
+
     .cases__card {
         margin-top: 80px;
     }
@@ -96,6 +104,10 @@
 }
 
 @media (max-width: 992px) {
+    .photo__work__card {
+        max-width: 450px;
+        margin: 0 auto;
+    }
 
     .cases__description {
         font-size: 14px;
@@ -106,13 +118,9 @@
         font-size: 50px;
     }
 
-    .work__content {
-        gap: 100px;
-    }
-
     .work__description {
         font-size: 28px;
-        margin-bottom: 60px;
+        margin: 0 auto 60px;
         text-align: center;
     }
 
@@ -137,19 +145,19 @@
         font-size: 46px;
     }
     .work__description {
+        display: flex;
         text-align: center;
         font-size: 25px;
     }
+    .cases__content{
+        text-align: center;
+        margin-bottom: 23px;
+    }
     .cases__card {
         flex-direction: column;
+        align-items: center;
     }
     .cases__subtext {
         margin-bottom: 30px;
-    }
-    .photo__work__card {
-        justify-content: left;
-        margin: 0 0 0;
-        order: 1;
-
     }
 }
