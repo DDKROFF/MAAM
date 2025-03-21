@@ -3,9 +3,9 @@
 @import 'vendor/_global.css';
 @import 'vendor/_fonts.css';
 
-@import 'components/_header.css';
-@import 'components/_footer.css';
-@import '/css/components/_adaptive.css';
+@import '/css/components/_header.css';
+@import '/css/components/_footer.css';
+@import '/css/components/mobileMenu.css';
 
 @import '/css/home/_info.css';
 @import '/css/home/_content.css';
