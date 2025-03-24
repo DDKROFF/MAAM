@@ -53,13 +53,12 @@
 .cases__subtext {
     color: var(--gray);
     font-size: 14px;
-    margin-bottom: 167px;
 }
 
 .cases__link {
     font-size: 20px;
     text-decoration: underline;
-
+    margin-top: auto;
 }
 
 .photo__work__card {
